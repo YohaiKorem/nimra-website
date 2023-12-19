@@ -1,0 +1,7 @@
+.hero {
+  @include aspect-ratio(1.5, 1);
+  height: 50dvh;
+  & > img {
+    object-position: 0% 10%;
+  }
+}

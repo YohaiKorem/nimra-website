@@ -1,0 +1,19 @@
+@import 'setup/variables';
+@import 'setup/functions';
+@import 'setup/mixins';
+@import 'basics/typography';
+@import 'basics/helpers';
+@import 'basics/layout';
+@import 'basics/modals';
+@import 'basics/animations';
+@import 'basics/base';
+
+// Pages
+@import 'pages/about';
+@import 'pages/main-content';
+@import 'pages/contact';
+// Cmps
+
+@import 'cmps/header';
+@import 'cmps/hero';
+@import 'cmps/footer';

@@ -1,0 +1,37 @@
+.footer {
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  background-image: linear-gradient(180deg, #3d3937 0%, #000000 100%);
+  height: $footer-height;
+}
+.btns-container,
+.btns-container .btn {
+  color: #fff;
+}
+.btns-container .btn {
+  border: none;
+  transition: 0.3s;
+  &:hover {
+    background-color: transparent;
+    color: darken(#fff, 20%);
+  }
+}
+.footer {
+  @include for-mobile-layout {
+    position: static;
+    height: auto;
+    .btns-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      .btn {
+        gap: 0.5rem;
+        &-call {
+          gap: 1rem;
+          @include grid-item(1, -1, 3, 4);
+          font-size: rem(26px);
+        }
+      }
+    }
+  }
+}
