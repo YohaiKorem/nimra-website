@@ -11,7 +11,8 @@ function Header() {
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
-    if (!isMenuOpen) document.body.classList.add('no-scroll')
+    if (!isMenuOpen && window.innerWidth <= 780)
+      document.body.classList.add('no-scroll')
     else document.body.classList.remove('no-scroll')
   }
 
