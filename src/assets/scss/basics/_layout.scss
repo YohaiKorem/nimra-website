@@ -34,7 +34,7 @@
 
 .main-layout {
   display: grid;
-  grid-template-columns: rem(20px) 1fr rem(20px);
+  grid-template-columns: $outer-padding 1fr $outer-padding;
   grid-template-rows: $header-height 1fr;
   & > :nth-child(2) {
     padding-block-end: calc($footer-height + 0.5rem);

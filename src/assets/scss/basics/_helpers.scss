@@ -739,5 +739,15 @@
 }
 
 .diagonal-container {
-  background: $gradient6;
+  width: 100vw;
+  height: 40dvh;
+  position: relative;
+  &::after {
+    content: '';
+    background: $gradient6;
+    position: absolute;
+    inset: 0;
+    transform: skewY(-5deg);
+    z-index: -1;
+  }
 }
