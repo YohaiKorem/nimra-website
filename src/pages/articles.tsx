@@ -1,6 +1,8 @@
+import treeTrunk from '../assets/imgs/treetrunk.jpg'
+
 function Articles() {
   return (
-    <div className="articles flex column mb1 mobile-inline-padding">
+    <section className="articles flex column mb1 mobile-inline-padding shadow">
       <h2 className="fw600">מידע מקצועי/מאמרים</h2>
       <h3 className="mb0-5">40 טיפים לזוגיות טובה</h3>
       <h4 className="mbe0-5">טיפים לזוגיות טובה ומאפשרת בגיל השלישי ובכלל.</h4>
@@ -11,7 +13,9 @@ function Articles() {
       </p>
       <p>
         בני הזוג כבר בפנסיה, או שאחד/אחת מבני הזוג בפנסיה והשני/ה עדיין במרוץ
-        החיים, הבריאות כבר לא משהו, ואז.. מה עושים? איך בונים את היחד מחדש? רוצה
+        החיים,
+        <br /> הבריאות כבר לא משהו,
+        <br /> <br /> ואז... <br /> מה עושים? איך בונים את היחד מחדש? רוצה
         להדגיש שאין קסמים... אלו רק רעיונות כלליים מאוד.
       </p>
       <p>ממליצה מאוד להיעזר באנשי מקצוע.</p>
@@ -67,7 +71,12 @@ function Articles() {
         <li>מחיוך של נכדות, ריח הפריחה, מזג האוויר ועוד.</li>
         <li>ולא לשכוח.... ל א ה ו ב.</li>
       </ul>
-    </div>
+      <img
+        src={treeTrunk}
+        alt="תמונה של גזע עץ"
+        className="background pos-fixed"
+      />
+    </section>
   )
 }
 export default Articles

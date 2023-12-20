@@ -1,0 +1,11 @@
+.articles {
+  color: #fff;
+  text-shadow: $text-shadow1;
+  background: linear-gradient(to right, transparent 50%, #0000003f 100%);
+  border-radius: 1rem;
+  img.background {
+    top: 0;
+    transform: rotateY(180deg);
+    object-position: 10% 10%;
+  }
+}
