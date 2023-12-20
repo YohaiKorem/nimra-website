@@ -1,7 +1,9 @@
+import familyImg from '../assets/imgs/familyImg.jpg'
+
 function Counseling() {
   return (
-    <article className="counseling mobile-inline-padding">
-      <h2 className="fw600 mb1">טיפול זוגי ומשפחתי </h2>
+    <article className="counseling pi1-5 mobile-inline-padding full pos-relative">
+      <h2 className="fw500 mb1">טיפול זוגי ומשפחתי </h2>
       <p>הטיפול מתמקד בחיפוש משמעות חדשה ודרך שונה להתמודד עם הקשיים.</p>
 
       <p> דרך הבנת מערכת היחסים והשפעתה על כל אחד בתוך המערכת המשפחתית.</p>
@@ -28,6 +30,11 @@ function Counseling() {
       </p>
 
       <p> דרך הטיפול מאפשרת לצאת לדרך חדשה.</p>
+      <img
+        src={familyImg}
+        alt="משפחה מטיילת בשדה"
+        className="background pos-fixed"
+      />
     </article>
   )
 }

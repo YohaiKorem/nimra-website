@@ -1,6 +1,8 @@
+import bodyMindSpirit from '../assets/imgs/bodyMindSpirit.jpg'
+
 function Psychotherapy() {
   return (
-    <div className="psychotherapy flex align-start gap1 column mbs1 mobile-inline-padding">
+    <section className="psychotherapy flex align-start gap1 column mbs1 mobile-inline-padding">
       <h2 className="fw600">פסיכותרפיה אינטגרטיבית</h2>
       <p>
         פסיכותרפיה אינטגרטיבית מזרח מערב נשענת על שלושה מרכיבי-יסוד: פסיכותרפיה
@@ -26,7 +28,12 @@ function Psychotherapy() {
         נוכחותו ותשומת ליבו למטופל יחד עם הקשר והאמון ההדדי שנוצר בין המטפל
         והמטופל.
       </p>
-    </div>
+      <img
+        src={bodyMindSpirit}
+        alt="כיתוב על החול: גוף, רוח, נפש"
+        className="background"
+      />
+    </section>
   )
 }
 

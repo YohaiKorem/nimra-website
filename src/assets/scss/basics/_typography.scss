@@ -1,24 +1,9 @@
 @font-face {
-  font-family: 'Tinos-Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../../fonts/Tinos-Regular.ttf') format('woff');
+  font-family: 'Alef-Regular';
+  src: url('../fonts/Alef-Regular.ttf') format('truetype');
 }
+
 @font-face {
-  font-family: 'Tinos-Bold';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../../fonts/Tinos-Bold.ttf') format('woff');
-}
-@font-face {
-  font-family: 'Tinos-BoldItalic';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../../fonts/Tinos-BoldItalic.ttf') format('woff');
-}
-@font-face {
-  font-family: 'Tinos-Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: url('../../fonts/Tinos-Italic.ttf') format('woff');
+  font-family: 'Alef-Bold';
+  src: url('../fonts/Alef-Bold.ttf') format('truetype');
 }
