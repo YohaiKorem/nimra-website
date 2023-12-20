@@ -1,7 +1,9 @@
-.img-container {
-  @include aspect-ratio(1, 1);
-  height: 30rem;
-  width: 30%;
+.main-content {
+  .img-container {
+    @include aspect-ratio(1, 1);
+    height: 30rem;
+    width: 30%;
+  }
 }
 
 img:not(.hero-img) {

@@ -1,0 +1,15 @@
+.psychotherapy {
+  color: #fff;
+  text-shadow: $text-shadow1;
+  top: $header-height;
+  img.background {
+    top: 0;
+  }
+  @include for-mobile-layout {
+    color: #333;
+    img.background {
+      object-position: 50% 0%;
+      opacity: 0.3;
+    }
+  }
+}
