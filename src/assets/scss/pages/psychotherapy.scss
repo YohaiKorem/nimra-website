@@ -5,12 +5,26 @@
   img.background {
     mix-blend-mode: normal;
     top: 0;
+    animation: object-pos 10s linear infinite;
+    @keyframes object-pos {
+      0%,
+      100% {
+        object-position: 50% 25%;
+      }
+      25% {
+        object-position: 50% 50%;
+      }
+      50% {
+        object-position: 50% 75%;
+      }
+      75% {
+        object-position: 50% 50%;
+      }
+    }
   }
   @include for-mobile-layout {
-    color: #333;
     img.background {
       object-position: 50% 0%;
-      opacity: 0.3;
     }
   }
 }

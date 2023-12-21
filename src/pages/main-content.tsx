@@ -5,7 +5,7 @@ function MainContent() {
   return (
     <>
       <Hero />
-      <article className="flex align-center gap1">
+      <article className="main-content flex align-start gap1">
         <p className="show-on-mobile p1">
           שלום רב, אני נימרה קסוי כורם מטפלת ומדריכה מוסמכת מטעם האגודה הישראלית
           לטיפול זוגי ומשפחתי, פסיכותרפיסטית עם התמקדות בשילוב תפיסות פילוסופיות
