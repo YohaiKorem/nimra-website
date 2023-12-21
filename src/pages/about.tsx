@@ -3,9 +3,12 @@ import nimraImg from '../assets/imgs/nimra-img.jpg'
 function About() {
   return (
     <section className="about flex gap1 space-between mobile-inline-padding full">
-      <h2 className="full-width fw600 fs24">אודותי</h2>
+      <h2 className="full-width fw600 fs24 show-on-mobile">אודותי</h2>
       <article className="txt-container flex column">
-        <p>תואר ראשון בחינוך מיוחד לילדים לקויי שמיעה, אוניברסיטת תל אביב.</p>{' '}
+        <h2 className="full-width fw600 fs24 hidden-on-mobile">אודותי</h2>
+        <p>
+          תואר ראשון בחינוך מיוחד לילדים לקויי שמיעה, אוניברסיטת תל אביב.
+        </p>{' '}
         <p>מלמדת במערכת החינוך ילדים לקויי שמיעה.</p>
         <p>
           תואר שני בהפרעות בתקשורת, אוניברסיטת סאו פאולו, ברזיל. <br /> התיזה
