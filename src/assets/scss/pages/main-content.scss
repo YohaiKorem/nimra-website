@@ -19,6 +19,9 @@ img:not(.hero-img) {
 .main-content {
   @include for-mobile-layout {
     flex-direction: column;
+    .txt-container {
+      padding-inline: 1rem;
+    }
     .img-container {
       width: 100%;
       box-shadow: $shadow1;

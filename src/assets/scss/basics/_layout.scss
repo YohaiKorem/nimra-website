@@ -3,7 +3,7 @@
   height: 100dvh;
   width: 100%;
   margin: 0 auto;
-
+  top: 0;
   & > *:not(.override-width) {
     width: 100%;
   }
@@ -11,6 +11,12 @@
   @include for-mobile-layout {
     max-width: initial;
     width: 100%;
+    position: absolute;
+    top: 0.5px;
+    bottom: 0.5px;
+    left: 0;
+    right: 0;
+    overflow-x: hidden;
   }
 
   @include for-tablet-layout {

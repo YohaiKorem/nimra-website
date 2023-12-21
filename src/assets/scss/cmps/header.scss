@@ -26,6 +26,9 @@
     &:hover {
       color: darken(#fff, 20%);
     }
+    &.active {
+      color: #ffc107;
+    }
   }
 }
 
