@@ -1,3 +1,4 @@
+import sprout from '../assets/imgs/sprout.jpg'
 function Stories() {
   return (
     <article className="stories pb1 flex column gap0-5 mobile-inline-padding">
@@ -127,6 +128,11 @@ function Stories() {
         אותם.
       </p>
       <p>ניפגש בשבוע הבא.</p>
+      <img
+        src={sprout}
+        alt="תמונה של נבט צומח מן האדמה "
+        className="background pos-fixed"
+      />
     </article>
   )
 }

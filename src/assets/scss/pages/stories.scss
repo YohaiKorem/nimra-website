@@ -1,0 +1,11 @@
+.stories {
+  h2,
+  p {
+    color: #fff;
+    text-shadow: $text-shadow1;
+  }
+  img.background {
+    top: 0;
+    mix-blend-mode: normal;
+  }
+}
