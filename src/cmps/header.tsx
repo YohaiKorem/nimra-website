@@ -24,10 +24,10 @@ function Header() {
         <FontAwesomeIcon icon={faBars} />
       </div>
       <div className="logo-container flex space-between align-center gap2 full-width">
-        <h1 className="flex   column fs30 fw500 p0-5 gap0-5">
+        <p className="title flex column fs30 fw500 p0-5 gap0-5">
           <span>נימרה קסוי כורם</span>
           <span className="fs22 fw400">מטפלת משפחתית וזוגית</span>
-        </h1>
+        </p>
         <div className="contact-info-container hidden-on-mobile flex align-center space-between gap1 fw500">
           <a
             href="tel:+972523481664"

@@ -2,7 +2,7 @@ import treeTrunk from '../assets/imgs/treetrunk.jpg'
 
 function Articles() {
   return (
-    <section className="articles flex column mb1 mobile-inline-padding shadow">
+    <section className="articles flex column pb1 mobile-inline-padding shadow">
       <h2 className="fw600">מידע מקצועי/מאמרים</h2>
       <h3 className="mb0-5">40 טיפים לזוגיות טובה</h3>
       <h4 className="mbe0-5">טיפים לזוגיות טובה ומאפשרת בגיל השלישי ובכלל.</h4>
@@ -72,6 +72,7 @@ function Articles() {
         <li>ולא לשכוח.... ל א ה ו ב.</li>
       </ul>
       <img
+        loading="lazy"
         src={treeTrunk}
         alt="תמונה של גזע עץ"
         className="background pos-fixed"

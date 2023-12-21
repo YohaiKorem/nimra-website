@@ -50,6 +50,7 @@ function Psychotherapy() {
         והמטופל.
       </p>
       <img
+        loading="lazy"
         src={bodyMindSpirit}
         alt="כיתוב על החול: גוף, רוח, נפש"
         className="background pos-fixed"

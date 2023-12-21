@@ -31,6 +31,7 @@ function Counseling() {
 
       <p> דרך הטיפול מאפשרת לצאת לדרך חדשה.</p>
       <img
+        loading="lazy"
         src={familyImg}
         alt="משפחה מטיילת בשדה"
         className="background pos-fixed"

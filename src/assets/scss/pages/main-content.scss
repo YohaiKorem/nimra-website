@@ -16,11 +16,12 @@ img:not(.hero-img) {
   width: 70%;
 }
 
-article {
+.main-content {
   @include for-mobile-layout {
     flex-direction: column;
     .img-container {
       width: 100%;
+      box-shadow: $shadow1;
     }
   }
 }

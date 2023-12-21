@@ -129,6 +129,7 @@ function Stories() {
       </p>
       <p>ניפגש בשבוע הבא.</p>
       <img
+        loading="lazy"
         src={sprout}
         alt="תמונה של נבט צומח מן האדמה "
         className="background pos-fixed"

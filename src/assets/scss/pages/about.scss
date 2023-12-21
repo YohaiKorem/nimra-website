@@ -1,6 +1,23 @@
-.about > * {
+.about > *:not(.background) {
   padding-inline: $outer-padding;
+  // mix-blend-mode: multiply;
 }
 
 .about {
+  color: #333;
+  background: linear-gradient(to right, transparent 20%, #ffffff3f 70%);
+  text-shadow: $text-shadow1;
+  .img-container {
+    flex-basis: 35%;
+  }
+  .txt-container {
+    gap: 0.7rem;
+    p,
+    h2 {
+      font-weight: 500;
+    }
+  }
+  img.background {
+    top: 0;
+  }
 }

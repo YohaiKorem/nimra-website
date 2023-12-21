@@ -1,7 +1,11 @@
 .hero {
-  @include aspect-ratio(1.5, 1);
-  height: 50dvh;
-  & > img {
-    object-position: 0% 10%;
+  min-height: 50dvh;
+  text-shadow: $text-shadow1;
+  color: #333333;
+  &::before {
+    position: absolute;
+  }
+  img {
+    z-index: -1;
   }
 }
